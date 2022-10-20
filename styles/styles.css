@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: rgb(250, 218, 221);
+    color: rgb(97, 90, 90);
+}
+
+h1 {
+    color: rgb(97, 90, 90);
+    margin: 20px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    padding: 10px;
+    color: rgb(97, 90, 90);
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 3px bold rgb(97, 90, 90);
+    /* почему не появляется рамка?*/
+}
+
+h2 {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(190, 129, 129);
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(143, 28, 158)
+}
+
+p {
+    font-size: 0.9rem;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(97, 90, 90);
+}
+
+ul {
+    font-size: 0.7rem;
+    width: 300px;
+    padding-top: 10px;
+    /* почему не появились маркеры - кружочки?*/
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+}
